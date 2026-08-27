@@ -1,1 +1,1 @@
-{"schema_version":1,"snapshots":[]}
+{"schema_version":1,"snapshots":[{"generated_at":"2026-08-27T09:39:22.947613+00:00","status":"ok","api_ok":true,"api_total_datasets":125,"works_count":181,"works_by_sector":{"Clermont-Centre":78,"Sud":41,"Nord & Est":37,"Ouest":25},"parking_avg_occupancy_pct":null,"parking_records":13,"weather_days":99}]}
