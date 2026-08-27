@@ -1,0 +1,20 @@
+Analysis Ultimate — Basalte-Web
+Version: 3.2.0 ULTIMATE CAUSAL CONTEXT
+Build: 2026-08-27
+
+Cette version conserve intégralement la v3.1 API Sentinel et ajoute :
+- Causal Context Engine transversal derrière chaque diagnostic métier.
+- Couplage automatique CA / marge / trafic / rayons / familles / produits / clients / retours / vendeurs avec le contexte travaux Clermont.
+- Test géographique par zones contributrices et zones témoins.
+- Test temporel autour du début et de la fin des chantiers avec fenêtres avant/après.
+- Parsing défensif des dates de travaux issues de l’API et des pages officielles.
+- Score d’affinité géographique entre la zone commerciale et le lieu du chantier pour réduire les faux positifs.
+- Test de causes concurrentes : stock, prix, vacances/saisonnalité, météo, remises/mix de marge.
+- Chaîne explicative automatique visible sous chaque constat.
+- Nouvel écran « Contexte causal » et question « Les travaux expliquent-ils mes baisses ? ».
+- Autopilot enrichi : tests contextuels et plans de vérification exécutés sans intervention.
+- Historisation des événements travaux (actifs / terminés) pour analyser les baisses ET les rebonds.
+- Dernier contexte valide conservé si une source publique tombe.
+- API Clermont Métropole toujours prioritaire, pages officielles en fallback, météo en variable de contrôle.
+
+Aucune extraction TGM ni donnée client n’est transmise par le connecteur public.
